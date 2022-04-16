@@ -1,0 +1,147 @@
+body {
+  background: #A7BEA9;
+  font-family: 'Rasa', serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+h1, h2, h3, h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase
+}
+h1 {
+  color: #2F4858;
+  font-size: 40px;
+  font-weight: 900;
+}
+h2 {
+  color: #2F4858;
+  font-size: 25px;
+  font-weight: bold;
+}
+h3{
+  color: #2F4858;
+  font-size: 20px;
+}
+h4 {
+  color: #D9E3DA;
+  font-size: 17px;
+  font-weight: lighter;
+}
+a {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+  color: #2F4858;
+  font-weight: bold;
+}
+a:hover {
+  color: #688487;
+}
+.sidebar {
+  width: 160px;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  overflow: auto;
+}
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+.card{
+  background-color: #D9E3DA;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 20px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+@media (max-width: 1100px) {
+  .sidebar {
+    width: 0px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    width: 400px;
+  }
+}
+.btn {
+  background-color:#2F4858;
+  color: #D9E3DA;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.btn:hover {
+  background-color: #677987;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.box {
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #A7BEA9;
+}
+.skills {
+  text-align: center;
+  color: #A7BEA9;
+}
+.English {
+  border-radius: 25px;
+  width: 100%;
+  background-color: #2F4858;
+}
+.Hindi {
+  border-radius: 25px;
+  width: 100%;
+  background-color: #2F4858;
+}
+.Telugu {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 75%;
+  background-color: #2F4858;
+}
+.Spanish {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 50%;
+  background-color: #2F4858;
+}
+.French {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 50%;
+  background-color: #2F4858;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
